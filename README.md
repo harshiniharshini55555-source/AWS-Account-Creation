@@ -1,85 +1,121 @@
- # CREATE AN  ACCOUNT IN AWS SET UP A ROOT USER AND AN IAM USER 
-## AIM
+# CREATE AN ACCOUNT IN AWS SET UP A ROOT USER AND AN IAM USER
+
+REG NUMBER: 212223030013
+
+NAME: Harshini L
+# AIM
 To Create an Account in AWS Set up a Root user and an IAM user.
 
-## PROBLEM STATEMENT
-This experiment involves creating an AWS account, configuring security settings for the root user, and setting up an IAM user. IAM users allow for secure, managed access to AWS resources without exposing the main account's root credentials.
+# PROBLEM STATEMENT
+Explain about the Experiment.
 
-## ALGORITHM
-## Step 1: Go to the AWS Website
-• Visit https://aws.amazon.com
+# ALGORITHM
 
-• Click “Create an AWS Account” in the top right corner.
+Step 1: Create an AWS Account
 
-## Step 2: Enter Account Information
-• Email address – Use a valid email you have access to.
+Open a web browser and visit the AWS official website: https://aws.amazon.com.
 
-• Password – Create a strong password.
+Click Create an AWS Account.
 
-• AWS account name – This is the name you want to associate with your AWS account (e.g., your name or company name).
+Enter your email address, account name, and create a strong password.
 
-## Step 3: Choose Account Type
-• Personal or Professional – Select based on how you plan to use AWS.
+Verify your email address using the verification code sent to your inbox.
 
-• Fill in your contact information (name, address, phone number).
+Fill in your contact information (Individual or Business).
 
-## Step 4: Enter Payment Information
-• Provide credit/debit card details.
+Enter your payment card details for identity verification.
 
-Note: You won’t be charged immediately. AWS offers a Free Tier, but entering card details is mandatory.
+Verify your phone number using the OTP received.
 
-## Step 5: Verify Your Identity
-• Enter your phone number.
+Select the Basic Support Plan (Free).
 
-• AWS will send a verification code via call or text.
+Complete the registration process and wait for the account activation confirmation.
 
-• Enter the code to confirm your identity.
 
-## Step 6: Choose a Support Plan
-Choose one of the following: • Basic Support (Free)
+Step 2: Log In as Root User
 
-• Developer Support
+Go to the AWS Sign-In page.
 
-• Business Support
+Select Root User.
 
-• Enterprise Support
+Enter the email address used during account creation.
 
-For most beginners, select Basic Support.
+Enter the password and click Sign In.
 
-## Step 7: Complete the Sign-Up
-• After reviewing all the details, click "Sign Up".
+After successful login, the AWS Management Console dashboard appears.
 
-• You’ll receive a confirmation email once your account is activated (usually within a few minutes).
 
-## Step 8: Sign In to AWS Console
-• Go to https://console.aws.amazon.com
+Step 3: Open IAM Management Console
 
-• Log in using your email and password to start using AWS services.
-Create a user with administrative access
-After you sign up for an AWS account, secure your AWS account root user, enable AWS IAM Identity Center, and create an administrative user so that you don't use the root user for everyday tasks.
+In the AWS Management Console, search for IAM using the search bar.
 
-## Secure your AWS account root user
-Sign in to the AWS Management Console (https://console.aws.amazon.com) as the account owner by choosing Root user and entering your AWS account email address. On the next page, enter your password. Turn on multi-factor authentication (MFA) for your root user.
+Click IAM (Identity and Access Management).
 
-## Create user with administrative access
-Enable IAM Identity Center. In IAM Identity Center, grant administrative access to a user.
+The IAM Dashboard opens, displaying options such as Users, Groups, Roles, and Policies.
 
-## Sign in as the user with administrative access
-To sign in with your IAM Identity Center user, use the sign-in URL that was sent to your email address when you created the IAM Identity Center user.
 
-## Services Overview:
-• Explore all the available services in AWS platform.
+Step 4: Add a New IAM User
 
-## OUTPUT:
-<img width="1861" height="857" alt="Screenshot 2026-07-27 132432" src="https://github.com/user-attachments/assets/0078d179-4124-4ac3-afaf-5d6afadf1690" />
-<img width="1050" height="472" alt="Screenshot 2026-07-27 133009" src="https://github.com/user-attachments/assets/a059c9b9-7057-4cea-b330-ec3e64ab43cf" />
-<img width="1048" height="457" alt="Screenshot 2026-07-27 133029" src="https://github.com/user-attachments/assets/a984077e-1da0-4428-92da-4cf6acbd78fc" />
+In the left navigation pane, click Users.
 
-### NAME: HARSHINI L
-### REG NUMBER:212223030013
+Click the Create User button.
 
- 
-## RESULT:
+Enter a username (e.g., student or adminuser).
+
+Click Next to continue.
+
+
+Step 5: Configure IAM User Login
+
+Select Provide user access to the AWS Management Console.
+
+Choose whether AWS should generate a password automatically or create a custom password.
+
+If required, enable Users must create a new password at next sign-in.
+
+Click Next.
+
+
+Step 6: Set Permissions for IAM User
+
+Choose one of the permission assignment methods:
+
+Add user to group (Recommended)
+
+Copy permissions from another user
+
+Attach policies directly
+
+If using a group, create a new group (e.g., Administrators).
+
+Attach the required policy such as AdministratorAccess or any other appropriate policy.
+
+Review the selected permissions.
+
+Click Next.
+
+
+Step 7: Review and Create IAM User
+
+Review all the user details, login settings, and assigned permissions.
+
+Click Create User.
+
+A success message confirms that the IAM user has been created.
+
+Download or copy the Sign-in URL, Username, and Password for future login.
+
+Sign out of the root account and test the IAM user login using the provided credentials.
+
+# OUTPUT
+<img width="1919" height="1093" alt="image" src="https://github.com/user-attachments/assets/10193654-d95e-4723-88fe-cf4bba3abb33" />
+
+<img width="1526" height="775" alt="image" src="https://github.com/user-attachments/assets/6cdbeb1d-ba11-466a-956d-57f2ea8cbaf8" />
+
+
+# RESULT
 The AWS account was successfully created, with set up for the root user . Additionally, an IAM user was created with specified permissions, allowing for secure, controlled access to AWS resources without the use of the root account.
-
  
+
+  
+
